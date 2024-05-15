@@ -7,8 +7,8 @@ def Web_scrapping(url):
     soup = BeautifulSoup(response.content, 'lxml')
     return soup
 
-hb = "https://www.hbc.com.pk/-lenovo-v15-g3-iap-12th-gen-intel-core-i3-1215u-4gb-ram-256gb-ssd-15-6%E2%80%B3-fhd-business-black-dos"
-czone = "https://www.czone.com.pk/laptops-lenovo-laptops-lenovo-v15-g3-iap-laptop-intel-core-i3-1215u-4gb-ddr4-256gb-ssd-15-6-fhd-laptop-bag-82tt002gue-business-black-pakistan-p.15194.aspx"
+hb = "C:\Desktop\scrap\Mobile- Buy Products Online at Best Price in India - All Categories _ Flipkart.com(1).html"
+czone = "C:\Desktop\scrap\Mobile- Buy Products Online at Best Price in India - All Categories _ Flipkart.com(1).html"
 
 product1 = Web_scrapping(hb)
 product2 = Web_scrapping(czone)
